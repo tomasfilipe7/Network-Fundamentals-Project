@@ -1,0 +1,18 @@
+Dec 27 10:26:54.903 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 27 10:26:54.903 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50605.
+Dec 27 10:26:54.913 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 27 10:26:54.913 HYPERVISOR: exec_cmd: hypervisor working_dir /home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips 
+Dec 27 10:26:54.913 GENERAL: working_dir=/home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips
+Dec 27 10:26:54.914 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-3 
+Dec 27 10:26:57.196 HYPERVISOR: exec_cmd: nio create_udp udp-965e22ef-fa4d-4f93-8a9e-3fdc26d502f7 10057 127.0.0.1 10056 
+Dec 27 10:26:57.197 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-965e22ef-fa4d-4f93-8a9e-3fdc26d502f7 
+Dec 27 10:26:57.217 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-965e22ef-fa4d-4f93-8a9e-3fdc26d502f7 1 
+Dec 27 10:42:16.094 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-965e22ef-fa4d-4f93-8a9e-3fdc26d502f7 1 
+Dec 27 10:52:43.960 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-965e22ef-fa4d-4f93-8a9e-3fdc26d502f7 1 
+Dec 27 10:52:50.394 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-965e22ef-fa4d-4f93-8a9e-3fdc26d502f7 1 
+Dec 27 11:06:37.687 HYPERVISOR: exec_cmd: nio create_udp udp-88ce9f99-df1f-4004-9789-1a6bab06f64e 10094 127.0.0.1 10095 
+Dec 27 11:06:37.687 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-88ce9f99-df1f-4004-9789-1a6bab06f64e 
+Dec 27 11:06:37.693 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-88ce9f99-df1f-4004-9789-1a6bab06f64e 1 
+Dec 27 11:06:42.992 HYPERVISOR: exec_cmd: nio create_udp udp-51856b6f-3c49-4345-a349-c0b3a439e88f 10096 127.0.0.1 10097 
+Dec 27 11:06:42.992 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-51856b6f-3c49-4345-a349-c0b3a439e88f 
+Dec 27 11:06:43.003 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-51856b6f-3c49-4345-a349-c0b3a439e88f 1 

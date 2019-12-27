@@ -1,0 +1,39 @@
+Dec 27 10:26:55.092 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 27 10:26:55.092 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52845.
+Dec 27 10:26:55.102 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 27 10:26:55.103 HYPERVISOR: exec_cmd: hypervisor working_dir /home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips 
+Dec 27 10:26:55.103 GENERAL: working_dir=/home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips
+Dec 27 10:26:55.103 HYPERVISOR: exec_cmd: hypervisor working_dir /home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips/6138231f-d078-4cd2-9561-8480e44d38c1 
+Dec 27 10:26:55.103 GENERAL: working_dir=/home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips/6138231f-d078-4cd2-9561-8480e44d38c1
+Dec 27 10:26:55.103 HYPERVISOR: exec_cmd: vm create R1 5 c7200 
+Dec 27 10:26:55.103 VM: VM R1 created.
+Dec 27 10:26:55.103 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5008 
+Dec 27 10:26:55.104 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Dec 27 10:26:55.104 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 27 10:26:55.104 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Dec 27 10:26:55.104 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Dec 27 10:26:55.104 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 27 10:26:55.104 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60608040 
+Dec 27 10:26:55.105 HYPERVISOR: exec_cmd: vm set_ios R1 /home/marciapires10/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 27 10:26:55.105 HYPERVISOR: exec_cmd: c7200 set_mac_addr R1 ca05.1d6a.0000 
+Dec 27 10:26:55.105 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Dec 27 10:26:55.105 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Dec 27 10:26:55.105 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 27 10:26:55.106 HYPERVISOR: exec_cmd: vm slot_remove_binding R1 0 0 
+Dec 27 10:26:55.106 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 27 10:26:55.106 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-2FE 
+Dec 27 10:26:55.106 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 27 10:26:55.106 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-2FE-TX 
+Dec 27 10:26:55.761 HYPERVISOR: exec_cmd: nio create_udp udp-e570cfed-4b4a-45e6-95d0-20d119104176 10010 127.0.0.1 10011 
+Dec 27 10:26:55.980 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-e570cfed-4b4a-45e6-95d0-20d119104176 
+Dec 27 10:26:55.981 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 27 10:26:56.345 HYPERVISOR: exec_cmd: nio create_udp udp-e618b8f6-032d-42f5-9ddc-af3ceb11b32b 10022 127.0.0.1 10023 
+Dec 27 10:26:56.346 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-e618b8f6-032d-42f5-9ddc-af3ceb11b32b 
+Dec 27 10:26:56.346 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 27 10:26:57.314 HYPERVISOR: exec_cmd: nio create_udp udp-5154fddb-5c6a-4efe-8730-9473c8498d39 10066 127.0.0.1 10067 
+Dec 27 10:26:57.316 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 0 udp-5154fddb-5c6a-4efe-8730-9473c8498d39 
+Dec 27 10:26:57.316 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 27 10:42:03.504 HYPERVISOR: exec_cmd: vm set_ios R1 /home/marciapires10/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 27 10:42:38.618 HYPERVISOR: exec_cmd: vm set_ios R1 /home/marciapires10/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 27 10:52:43.681 HYPERVISOR: exec_cmd: vm set_ios R1 /home/marciapires10/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 27 10:52:50.125 HYPERVISOR: exec_cmd: vm set_ios R1 /home/marciapires10/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 

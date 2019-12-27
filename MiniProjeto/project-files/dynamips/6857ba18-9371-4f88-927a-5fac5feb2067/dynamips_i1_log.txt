@@ -1,0 +1,18 @@
+Dec 27 10:26:54.862 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 27 10:26:54.862 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 34689.
+Dec 27 10:26:54.871 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 27 10:26:54.871 HYPERVISOR: exec_cmd: hypervisor working_dir /home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips 
+Dec 27 10:26:54.871 GENERAL: working_dir=/home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips
+Dec 27 10:26:54.872 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-1 
+Dec 27 10:26:57.073 HYPERVISOR: exec_cmd: nio create_udp udp-78448279-d09c-43a4-bd00-f715e242dcc5 10049 127.0.0.1 10048 
+Dec 27 10:26:57.073 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-78448279-d09c-43a4-bd00-f715e242dcc5 
+Dec 27 10:26:57.091 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-78448279-d09c-43a4-bd00-f715e242dcc5 1 
+Dec 27 10:42:26.967 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-78448279-d09c-43a4-bd00-f715e242dcc5 1 
+Dec 27 10:52:44.237 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-78448279-d09c-43a4-bd00-f715e242dcc5 1 
+Dec 27 10:52:50.639 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-78448279-d09c-43a4-bd00-f715e242dcc5 1 
+Dec 27 11:06:19.224 HYPERVISOR: exec_cmd: nio create_udp udp-99eb71b4-58f3-48b4-9a86-208e925c5bfd 10086 127.0.0.1 10087 
+Dec 27 11:06:19.225 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-99eb71b4-58f3-48b4-9a86-208e925c5bfd 
+Dec 27 11:06:19.239 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-99eb71b4-58f3-48b4-9a86-208e925c5bfd 1 
+Dec 27 11:06:26.985 HYPERVISOR: exec_cmd: nio create_udp udp-42c601a5-ed7a-441d-841c-86dfecea6891 10088 127.0.0.1 10089 
+Dec 27 11:06:26.985 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-42c601a5-ed7a-441d-841c-86dfecea6891 
+Dec 27 11:06:27.001 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-42c601a5-ed7a-441d-841c-86dfecea6891 1 

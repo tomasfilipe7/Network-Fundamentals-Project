@@ -1,0 +1,40 @@
+Dec 27 10:26:55.045 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 27 10:26:55.045 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51587.
+Dec 27 10:26:55.055 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 27 10:26:55.056 HYPERVISOR: exec_cmd: hypervisor working_dir /home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips 
+Dec 27 10:26:55.056 GENERAL: working_dir=/home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips
+Dec 27 10:26:55.056 HYPERVISOR: exec_cmd: hypervisor working_dir /home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips/6f7274f2-6755-4bea-8655-341c161996ab 
+Dec 27 10:26:55.056 GENERAL: working_dir=/home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips/6f7274f2-6755-4bea-8655-341c161996ab
+Dec 27 10:26:55.056 HYPERVISOR: exec_cmd: vm create SWL3C1 4 c3725 
+Dec 27 10:26:55.056 VM: VM SWL3C1 created.
+Dec 27 10:26:55.056 HYPERVISOR: exec_cmd: vm set_con_tcp_port SWL3C1 5007 
+Dec 27 10:26:55.057 HYPERVISOR: exec_cmd: c3725 get_mac_addr SWL3C1 
+Dec 27 10:26:55.057 HYPERVISOR: exec_cmd: vm set_disk0 SWL3C1 1 
+Dec 27 10:26:55.057 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 27 10:26:55.057 HYPERVISOR: exec_cmd: vm set_idle_pc SWL3C1 0x60a6a1e0 
+Dec 27 10:26:55.057 HYPERVISOR: exec_cmd: vm set_ios SWL3C1 /home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 27 10:26:55.058 HYPERVISOR: exec_cmd: c3725 set_mac_addr SWL3C1 c204.1d41.0000 
+Dec 27 10:26:55.058 HYPERVISOR: exec_cmd: vm set_nvram SWL3C1 256 
+Dec 27 10:26:55.058 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 27 10:26:55.058 HYPERVISOR: exec_cmd: vm slot_add_binding SWL3C1 1 0 NM-16ESW 
+Dec 27 10:26:56.052 HYPERVISOR: exec_cmd: nio create_udp udp-2f92546f-189f-4b11-a6e9-4a7cc7f80829 10016 127.0.0.1 10017 
+Dec 27 10:26:56.270 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 0 0 udp-2f92546f-189f-4b11-a6e9-4a7cc7f80829 
+Dec 27 10:26:56.272 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 27 10:26:56.338 HYPERVISOR: exec_cmd: nio create_udp udp-1259c1e6-b8c1-4b90-bc46-a110c2e2b0bd 10020 127.0.0.1 10021 
+Dec 27 10:26:56.339 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 0 1 udp-1259c1e6-b8c1-4b90-bc46-a110c2e2b0bd 
+Dec 27 10:26:56.339 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 27 10:26:56.977 HYPERVISOR: exec_cmd: nio create_udp udp-67faa38d-dd54-45cd-bc00-4f61dc2eccfa 10038 127.0.0.1 10039 
+Dec 27 10:26:56.978 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 1 0 udp-67faa38d-dd54-45cd-bc00-4f61dc2eccfa 
+Dec 27 10:26:56.978 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 27 10:26:57.021 HYPERVISOR: exec_cmd: nio create_udp udp-29466c0f-b4af-4cd5-8312-b031aef91fa8 10044 127.0.0.1 10045 
+Dec 27 10:26:57.022 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 1 1 udp-29466c0f-b4af-4cd5-8312-b031aef91fa8 
+Dec 27 10:26:57.023 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 27 10:42:05.412 HYPERVISOR: exec_cmd: vm set_ios SWL3C1 /home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 27 10:45:13.610 HYPERVISOR: exec_cmd: nio create_udp udp-2d5bf2b6-7405-4773-a892-4c44959ccba7 10072 127.0.0.1 10073 
+Dec 27 10:45:13.611 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 1 2 udp-2d5bf2b6-7405-4773-a892-4c44959ccba7 
+Dec 27 10:45:13.612 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 27 10:49:59.898 HYPERVISOR: exec_cmd: nio create_udp udp-40ed3fee-e2cb-4e6d-abd7-c1a3bc7361d7 10076 127.0.0.1 10077 
+Dec 27 10:49:59.900 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 1 3 udp-40ed3fee-e2cb-4e6d-abd7-c1a3bc7361d7 
+Dec 27 10:49:59.900 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 27 10:52:43.690 HYPERVISOR: exec_cmd: vm set_ios SWL3C1 /home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 27 10:52:50.132 HYPERVISOR: exec_cmd: vm set_ios SWL3C1 /home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 

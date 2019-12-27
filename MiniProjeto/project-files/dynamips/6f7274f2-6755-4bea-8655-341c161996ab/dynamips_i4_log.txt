@@ -1,0 +1,20 @@
+Dec 27 10:26:54.924 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 27 10:26:54.924 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59643.
+Dec 27 10:26:54.934 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 27 10:26:54.934 HYPERVISOR: exec_cmd: hypervisor working_dir /home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips 
+Dec 27 10:26:54.934 GENERAL: working_dir=/home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips
+Dec 27 10:26:54.935 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-4 
+Dec 27 10:26:57.262 HYPERVISOR: exec_cmd: nio create_udp udp-8f9dd6ef-58eb-41e1-b578-f6237ba4ec22 10061 127.0.0.1 10060 
+Dec 27 10:26:57.262 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-4 udp-8f9dd6ef-58eb-41e1-b578-f6237ba4ec22 
+Dec 27 10:26:57.277 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-4 udp-8f9dd6ef-58eb-41e1-b578-f6237ba4ec22 1 
+Dec 27 10:42:13.476 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-4 udp-8f9dd6ef-58eb-41e1-b578-f6237ba4ec22 1 
+Dec 27 10:52:43.958 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-4 udp-8f9dd6ef-58eb-41e1-b578-f6237ba4ec22 1 
+Dec 27 10:52:50.392 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-4 udp-8f9dd6ef-58eb-41e1-b578-f6237ba4ec22 1 
+Dec 27 11:01:47.171 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-4 udp-8f9dd6ef-58eb-41e1-b578-f6237ba4ec22 1 
+Dec 27 11:04:29.968 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-4 udp-8f9dd6ef-58eb-41e1-b578-f6237ba4ec22 1 
+Dec 27 11:06:46.829 HYPERVISOR: exec_cmd: nio create_udp udp-abeab34d-42ca-42d1-a4af-dae3400f2a81 10098 127.0.0.1 10099 
+Dec 27 11:06:46.829 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-4 udp-abeab34d-42ca-42d1-a4af-dae3400f2a81 
+Dec 27 11:06:46.841 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-4 udp-abeab34d-42ca-42d1-a4af-dae3400f2a81 1 
+Dec 27 11:06:51.187 HYPERVISOR: exec_cmd: nio create_udp udp-0535fa08-0883-4729-9ea4-b7c3dd2fe26d 10100 127.0.0.1 10101 
+Dec 27 11:06:51.187 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-4 udp-0535fa08-0883-4729-9ea4-b7c3dd2fe26d 
+Dec 27 11:06:51.207 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-4 udp-0535fa08-0883-4729-9ea4-b7c3dd2fe26d 1 
