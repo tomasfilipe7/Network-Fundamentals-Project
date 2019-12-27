@@ -1,0 +1,21 @@
+# ignore 
+*.txt
+*.log
+ubridge.log
+\.fuse_hidden*
+
+c7200_i*_bootflash
+c7200_i*_iomem
+c7200_i*_nvram
+c7200_i*_ram
+c7200_i*_rommon_vars
+
+c3725_i*_rom
+c3725_i*_ram
+c3725_i*_rommon_vars
+c3725_i*_slot*
+c3725_i*_ssa
+c*_i*_lock
+ilt_*
+
+*.pcap
