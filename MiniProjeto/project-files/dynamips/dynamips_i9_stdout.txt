@@ -1,6 +1,1 @@
 C7200 'Ghost': generic_nvram_extract_config: Unknown error -61605
-memzone_open_file: open: No such file or directory
-dev_create_ghost_ram: mmap: No such file or directory
-C7200 'R1': RAM_ghost: unable to create device (filename=/home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost)
-C7200 'R1': incomplete initialization (no memory?)
-C7200 'R1': unable to initialize the platform hardware.
