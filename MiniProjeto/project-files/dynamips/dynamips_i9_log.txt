@@ -37,3 +37,41 @@ Dec 27 10:42:03.504 HYPERVISOR: exec_cmd: vm set_ios R1 /home/marciapires10/GNS3
 Dec 27 10:42:38.618 HYPERVISOR: exec_cmd: vm set_ios R1 /home/marciapires10/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
 Dec 27 10:52:43.681 HYPERVISOR: exec_cmd: vm set_ios R1 /home/marciapires10/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
 Dec 27 10:52:50.125 HYPERVISOR: exec_cmd: vm set_ios R1 /home/marciapires10/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 27 16:59:22.728 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Dec 27 16:59:22.728 VM: VM Ghost created.
+Dec 27 16:59:22.729 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/marciapires10/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 27 16:59:22.730 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Dec 27 16:59:22.730 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Dec 27 16:59:22.731 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Dec 27 16:59:22.731 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Dec 27 16:59:22.732 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Dec 27 16:59:22.732 HYPERVISOR: exec_cmd: vm start Ghost 
+Dec 27 16:59:23.259 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Dec 27 16:59:23.259 HYPERVISOR: exec_cmd: vm stop Ghost 
+Dec 27 16:59:23.366 VM: VM Ghost shutdown.
+Dec 27 16:59:23.367 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Dec 27 16:59:23.367 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Dec 27 16:59:23.368 VM: VM Ghost destroyed.
+Dec 27 16:59:23.368 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Dec 27 16:59:23.369 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Dec 27 16:59:23.369 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 27 16:59:23.377 HYPERVISOR: exec_cmd: vm set_config R1 configs/i5_startup-config.cfg 
+Dec 27 16:59:23.377 HYPERVISOR: exec_cmd: vm start R1 
+Dec 27 16:59:53.623 HYPERVISOR: exec_cmd: vm extract_config R1 
+Dec 27 17:00:23.626 HYPERVISOR: exec_cmd: vm extract_config R1 
+Dec 27 18:17:42.533 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 27 18:17:42.533 HYPERVISOR: exec_cmd: vm stop R1 
+Dec 27 18:17:42.647 VM: VM R1 shutdown.
+Dec 27 18:17:42.648 HYPERVISOR: exec_cmd: vm extract_config R1 
+Dec 27 18:18:05.956 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Dec 27 18:18:05.957 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Dec 27 18:18:05.957 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 27 18:18:05.958 HYPERVISOR: exec_cmd: vm set_config R1 configs/i5_startup-config.cfg 
+Dec 27 18:18:05.958 HYPERVISOR: exec_cmd: vm start R1 
+Dec 27 18:18:56.193 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 27 18:18:56.193 HYPERVISOR: exec_cmd: vm stop R1 
+Dec 27 18:18:56.329 VM: VM R1 shutdown.
+Dec 27 18:18:56.330 HYPERVISOR: exec_cmd: vm extract_config R1 
+Dec 27 21:28:31.838 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 27 21:28:31.842 HYPERVISOR: exec_cmd: vm set_config R1 configs/i5_startup-config.cfg 
+Dec 27 21:28:31.844 HYPERVISOR: exec_cmd: vm start R1 

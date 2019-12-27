@@ -31,3 +31,26 @@ Dec 27 10:41:59.460 HYPERVISOR: exec_cmd: vm set_ios ISP /home/marciapires10/GNS
 Dec 27 10:42:42.227 HYPERVISOR: exec_cmd: vm set_ios ISP /home/marciapires10/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
 Dec 27 10:52:43.679 HYPERVISOR: exec_cmd: vm set_ios ISP /home/marciapires10/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
 Dec 27 10:52:50.123 HYPERVISOR: exec_cmd: vm set_ios ISP /home/marciapires10/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 27 16:59:23.369 HYPERVISOR: exec_cmd: vm set_ghost_status ISP 2 
+Dec 27 16:59:23.370 HYPERVISOR: exec_cmd: vm set_ghost_file ISP /home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Dec 27 16:59:23.370 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 27 16:59:23.370 HYPERVISOR: exec_cmd: vm set_config ISP configs/i6_startup-config.cfg 
+Dec 27 16:59:23.371 HYPERVISOR: exec_cmd: vm start ISP 
+Dec 27 16:59:53.582 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Dec 27 17:00:23.585 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Dec 27 18:17:42.532 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 27 18:17:42.533 HYPERVISOR: exec_cmd: vm stop ISP 
+Dec 27 18:17:42.607 VM: VM ISP shutdown.
+Dec 27 18:17:42.608 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Dec 27 18:18:05.957 HYPERVISOR: exec_cmd: vm set_ghost_status ISP 2 
+Dec 27 18:18:05.958 HYPERVISOR: exec_cmd: vm set_ghost_file ISP /home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Dec 27 18:18:05.959 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 27 18:18:05.959 HYPERVISOR: exec_cmd: vm set_config ISP configs/i6_startup-config.cfg 
+Dec 27 18:18:05.959 HYPERVISOR: exec_cmd: vm start ISP 
+Dec 27 18:18:56.225 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 27 18:18:56.225 HYPERVISOR: exec_cmd: vm stop ISP 
+Dec 27 18:18:56.306 VM: VM ISP shutdown.
+Dec 27 18:18:56.308 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Dec 27 21:28:31.839 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 27 21:28:31.844 HYPERVISOR: exec_cmd: vm set_config ISP configs/i6_startup-config.cfg 
+Dec 27 21:28:31.845 HYPERVISOR: exec_cmd: vm start ISP 

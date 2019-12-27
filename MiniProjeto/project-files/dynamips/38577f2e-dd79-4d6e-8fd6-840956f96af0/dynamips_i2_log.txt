@@ -16,3 +16,5 @@ Dec 27 11:06:30.251 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2
 Dec 27 11:06:33.305 HYPERVISOR: exec_cmd: nio create_udp udp-9a4815de-b897-41db-b8ed-c02af3521328 10092 127.0.0.1 10093 
 Dec 27 11:06:33.305 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-9a4815de-b897-41db-b8ed-c02af3521328 
 Dec 27 11:06:33.307 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-9a4815de-b897-41db-b8ed-c02af3521328 1 
+Dec 27 16:39:36.997 HYPERVISOR: exec_cmd: ethsw remove_nio Ethernetswitch-2 udp-9a4815de-b897-41db-b8ed-c02af3521328 
+Dec 27 16:39:37.017 HYPERVISOR: exec_cmd: nio delete udp-9a4815de-b897-41db-b8ed-c02af3521328 

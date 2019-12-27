@@ -702,37 +702,6 @@
             },
             {
                 "filters": {},
-                "link_id": "a31eb082-886f-4910-87bb-97c58f259ae1",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e2",
-                            "x": -2,
-                            "y": 27
-                        },
-                        "node_id": "166e920b-6305-436d-b5f9-fb976b1096de",
-                        "port_number": 2
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 70,
-                            "y": 17
-                        },
-                        "node_id": "7599f55a-5749-4b16-b84e-ac278488bd30",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
                 "link_id": "35537039-fc0c-46d8-b934-8f2dedae4595",
                 "nodes": [
                     {
@@ -1608,7 +1577,7 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "8e11dbd9-74ec-4d63-a25a-bc3d1c296f69",
                 "width": 66,
-                "x": -71,
+                "x": -69,
                 "y": -391,
                 "z": 1
             },
@@ -1783,12 +1752,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Datacenter_1",
-                    "x": 15,
-                    "y": -30
+                    "text": "Datacenter_pub",
+                    "x": -27,
+                    "y": 54
                 },
                 "locked": false,
-                "name": "Datacenter_1",
+                "name": "Datacenter_pub",
                 "node_id": "fc1af4c7-85ab-48c1-81b0-daa853e9f35f",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -1812,12 +1781,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Datacenter_2",
-                    "x": -29,
-                    "y": -34
+                    "text": "Datacenter_priv",
+                    "x": -28,
+                    "y": 52
                 },
                 "locked": false,
-                "name": "Datacenter_2",
+                "name": "Datacenter_priv",
                 "node_id": "111bd417-db88-4320-a93e-e048d2dadba9",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -1841,12 +1810,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "DMZ_1",
-                    "x": 15,
-                    "y": -25
+                    "text": "DMZ_pub",
+                    "x": -5,
+                    "y": 54
                 },
                 "locked": false,
-                "name": "DMZ_1",
+                "name": "DMZ_pub",
                 "node_id": "ed83ddb0-cc06-4eda-b77b-40b6d744efa9",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -1870,12 +1839,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "DMZ_2",
-                    "x": -11,
-                    "y": -25
+                    "text": "DMZ_priv",
+                    "x": -6,
+                    "y": 56
                 },
                 "locked": false,
-                "name": "DMZ_2",
+                "name": "DMZ_priv",
                 "node_id": "dc8e7db6-66b7-4318-ba01-ea471df1fe0d",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -1900,8 +1869,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "Research_priv",
-                    "x": -23,
-                    "y": -25
+                    "x": -21,
+                    "y": 58
                 },
                 "locked": false,
                 "name": "Research_priv",
@@ -1929,8 +1898,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "Admin_priv",
-                    "x": -12,
-                    "y": -25
+                    "x": -9,
+                    "y": 60
                 },
                 "locked": false,
                 "name": "Admin_priv",
@@ -1958,8 +1927,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "Marketing_priv",
-                    "x": -26,
-                    "y": -25
+                    "x": -24,
+                    "y": 58
                 },
                 "locked": false,
                 "name": "Marketing_priv",
@@ -1987,8 +1956,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "Design_priv",
-                    "x": -14,
-                    "y": -25
+                    "x": -12,
+                    "y": 52
                 },
                 "locked": false,
                 "name": "Design_priv",
@@ -2006,35 +1975,6 @@
             },
             {
                 "compute_id": "local",
-                "console": 5029,
-                "console_auto_start": false,
-                "console_type": "telnet",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Research",
-                    "x": -5,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "Research",
-                "node_id": "7599f55a-5749-4b16-b84e-ac278488bd30",
-                "node_type": "vpcs",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {},
-                "symbol": ":/symbols/vpcs_guest.svg",
-                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
-                "width": 65,
-                "x": -1514,
-                "y": 63,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
                 "console": 5031,
                 "console_auto_start": false,
                 "console_type": "telnet",
@@ -2045,8 +1985,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "Admin_pub",
-                    "x": -11,
-                    "y": -25
+                    "x": -12,
+                    "y": 50
                 },
                 "locked": false,
                 "name": "Admin_pub",
@@ -2058,8 +1998,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -1514,
-                "y": -105,
+                "x": -1510,
+                "y": -3,
                 "z": 1
             },
             {
@@ -2075,7 +2015,7 @@
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "Marketing_pub",
                     "x": -26,
-                    "y": -25
+                    "y": 58
                 },
                 "locked": false,
                 "name": "Marketing_pub",
@@ -2103,8 +2043,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "Design_pub",
-                    "x": -13,
-                    "y": -25
+                    "x": -9,
+                    "y": 64
                 },
                 "locked": false,
                 "name": "Design_pub",
@@ -2125,5 +2065,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.3",
-    "zoom": 50
+    "zoom": 53
 }

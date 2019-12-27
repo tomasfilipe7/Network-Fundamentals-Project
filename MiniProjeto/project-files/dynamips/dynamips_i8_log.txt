@@ -38,3 +38,32 @@ Dec 27 10:49:59.900 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 1 3 udp
 Dec 27 10:49:59.900 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
 Dec 27 10:52:43.690 HYPERVISOR: exec_cmd: vm set_ios SWL3C1 /home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
 Dec 27 10:52:50.132 HYPERVISOR: exec_cmd: vm set_ios SWL3C1 /home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 27 16:59:22.725 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
+Dec 27 16:59:22.727 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Dec 27 16:59:22.727 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 27 16:59:22.729 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
+Dec 27 16:59:22.730 HYPERVISOR: exec_cmd: vm start SWL3C1 
+Dec 27 17:44:23.432 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 27 17:44:23.436 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 27 18:17:42.512 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 27 18:17:42.513 HYPERVISOR: exec_cmd: vm stop SWL3C1 
+Dec 27 18:17:42.696 VM: VM SWL3C1 shutdown.
+Dec 27 18:17:42.697 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 27 18:18:05.945 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
+Dec 27 18:18:05.947 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Dec 27 18:18:05.950 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 27 18:18:05.954 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
+Dec 27 18:18:05.954 HYPERVISOR: exec_cmd: vm start SWL3C1 
+Dec 27 18:18:56.191 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 27 18:18:56.192 HYPERVISOR: exec_cmd: vm stop SWL3C1 
+Dec 27 18:18:56.357 VM: VM SWL3C1 shutdown.
+Dec 27 18:18:56.357 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 27 21:28:31.836 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 27 21:28:31.840 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
+Dec 27 21:28:31.844 HYPERVISOR: exec_cmd: vm start SWL3C1 
+Dec 27 21:44:32.247 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 27 21:44:32.256 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 27 21:45:02.250 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 27 21:45:02.252 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 27 21:47:32.259 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 27 21:47:32.264 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 

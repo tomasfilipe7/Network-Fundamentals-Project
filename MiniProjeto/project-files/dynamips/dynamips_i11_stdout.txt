@@ -1,0 +1,5 @@
+memzone_open_file: open: No such file or directory
+dev_create_ghost_ram: mmap: Invalid argument
+C7200 'RA': RAM_ghost: unable to create device (filename=/home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost)
+C7200 'RA': incomplete initialization (no memory?)
+C7200 'RA': unable to initialize the platform hardware.

@@ -1,0 +1,7 @@
+memzone_open_file: open: No such file or directory
+dev_create_ghost_ram: mmap: Invalid argument
+C3725 'SWL3F1': RAM_ghost: unable to create device (filename=/home/marciapires10/Desktop/Universidade/3Ano/1semestre/FR/Projeto/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost)
+% No memory map for code execution at 0x0
+% Unable to create instruction block for vaddr=0x0
+insn_page_compile: unable to create JIT block.
+VM 'SWL3F1': unable to compile block for CPU0 PC=0x0
