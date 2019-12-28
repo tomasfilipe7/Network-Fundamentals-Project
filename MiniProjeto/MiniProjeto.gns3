@@ -1287,8 +1287,8 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "template_id": "ae3e4835-e771-4563-a0ca-32d67cd118ee",
                 "width": 51,
-                "x": -753,
-                "y": 454,
+                "x": -729,
+                "y": 450,
                 "z": 1
             },
             {
@@ -2125,5 +2125,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.3",
-    "zoom": 51
+    "zoom": 47
 }
