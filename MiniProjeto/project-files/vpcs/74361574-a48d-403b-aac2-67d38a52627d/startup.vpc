@@ -1,9 +1,1 @@
-# This the configuration for Design_pub
-#
-# Uncomment the following line to enable DHCP
-# dhcp
-# or the line below to manually setup an IP address and subnet mask
-# ip 192.168.1.1 255.0.0.0
-#
-
-set pcname Design_pub
+ip 200.186.147.17 200.186.147.18 28
