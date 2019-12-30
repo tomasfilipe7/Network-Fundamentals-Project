@@ -1,81 +1,173 @@
-Dec 28 20:15:54.092 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
-Dec 28 20:15:54.092 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58177.
-Dec 28 20:15:54.103 HYPERVISOR: exec_cmd: hypervisor version 
-Dec 28 20:15:54.103 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips 
-Dec 28 20:15:54.103 GENERAL: working_dir=/home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips
-Dec 28 20:15:54.103 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/6f7274f2-6755-4bea-8655-341c161996ab 
-Dec 28 20:15:54.103 GENERAL: working_dir=/home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/6f7274f2-6755-4bea-8655-341c161996ab
-Dec 28 20:15:54.103 HYPERVISOR: exec_cmd: vm create SWL3C1 4 c3725 
-Dec 28 20:15:54.104 VM: VM SWL3C1 created.
-Dec 28 20:15:54.104 HYPERVISOR: exec_cmd: vm set_con_tcp_port SWL3C1 5007 
-Dec 28 20:15:54.104 HYPERVISOR: exec_cmd: c3725 get_mac_addr SWL3C1 
-Dec 28 20:15:54.104 HYPERVISOR: exec_cmd: vm set_disk0 SWL3C1 1 
-Dec 28 20:15:54.104 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 20:15:54.105 HYPERVISOR: exec_cmd: vm set_idle_pc SWL3C1 0x60a6a1e0 
-Dec 28 20:15:54.105 HYPERVISOR: exec_cmd: vm set_ios SWL3C1 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
-Dec 28 20:15:54.105 HYPERVISOR: exec_cmd: c3725 set_mac_addr SWL3C1 c204.1d41.0000 
-Dec 28 20:15:54.106 HYPERVISOR: exec_cmd: vm set_nvram SWL3C1 256 
-Dec 28 20:15:54.106 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 20:15:54.106 HYPERVISOR: exec_cmd: vm slot_add_binding SWL3C1 1 0 NM-16ESW 
-Dec 28 20:15:55.257 HYPERVISOR: exec_cmd: nio create_udp udp-40b88900-c86f-437b-9a27-e284bd5acb62 10016 127.0.0.1 10017 
-Dec 28 20:15:55.470 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 0 0 udp-40b88900-c86f-437b-9a27-e284bd5acb62 
-Dec 28 20:15:55.471 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 20:15:55.539 HYPERVISOR: exec_cmd: nio create_udp udp-18dc10ab-5890-49f6-8412-1234b5a5b39c 10020 127.0.0.1 10021 
-Dec 28 20:15:55.540 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 0 1 udp-18dc10ab-5890-49f6-8412-1234b5a5b39c 
-Dec 28 20:15:55.540 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 20:15:56.179 HYPERVISOR: exec_cmd: nio create_udp udp-d99b57cc-1978-4a9a-87c0-5477899e3aaa 10038 127.0.0.1 10039 
-Dec 28 20:15:56.180 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 1 0 udp-d99b57cc-1978-4a9a-87c0-5477899e3aaa 
-Dec 28 20:15:56.180 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 20:15:56.238 HYPERVISOR: exec_cmd: nio create_udp udp-f80d81c1-1bfa-44b6-8e54-10f3a02aa0f6 10044 127.0.0.1 10045 
-Dec 28 20:15:56.239 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 1 1 udp-f80d81c1-1bfa-44b6-8e54-10f3a02aa0f6 
-Dec 28 20:15:56.239 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 20:15:56.862 HYPERVISOR: exec_cmd: nio create_udp udp-e9cdd597-54c2-4e5f-8e17-1117bee97c63 10072 127.0.0.1 10073 
-Dec 28 20:15:56.863 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 1 2 udp-e9cdd597-54c2-4e5f-8e17-1117bee97c63 
-Dec 28 20:15:56.864 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 20:15:56.929 HYPERVISOR: exec_cmd: nio create_udp udp-07f1c8ea-567f-4eef-a57f-6324adfd1255 10076 127.0.0.1 10077 
-Dec 28 20:15:56.931 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 1 3 udp-07f1c8ea-567f-4eef-a57f-6324adfd1255 
-Dec 28 20:15:56.931 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 20:16:28.859 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
-Dec 28 20:16:28.859 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
-Dec 28 20:16:28.859 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 20:16:28.860 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
-Dec 28 20:16:28.860 HYPERVISOR: exec_cmd: vm start SWL3C1 
-Dec 28 21:02:24.179 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 21:02:24.180 HYPERVISOR: exec_cmd: vm stop SWL3C1 
-Dec 28 21:02:24.342 VM: VM SWL3C1 shutdown.
-Dec 28 21:02:24.342 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
-Dec 28 21:02:26.118 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
-Dec 28 21:02:26.119 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
-Dec 28 21:02:26.120 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 21:02:26.121 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
-Dec 28 21:02:26.122 HYPERVISOR: exec_cmd: vm start SWL3C1 
-Dec 28 21:12:15.645 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 21:12:15.645 HYPERVISOR: exec_cmd: vm stop SWL3C1 
-Dec 28 21:12:15.823 VM: VM SWL3C1 shutdown.
-Dec 28 21:12:15.823 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
-Dec 28 21:12:19.856 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
-Dec 28 21:12:19.858 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
-Dec 28 21:12:19.858 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 21:12:19.859 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
-Dec 28 21:12:19.864 HYPERVISOR: exec_cmd: vm start SWL3C1 
-Dec 28 21:22:30.661 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 21:22:30.661 HYPERVISOR: exec_cmd: vm stop SWL3C1 
-Dec 28 21:22:30.840 VM: VM SWL3C1 shutdown.
-Dec 28 21:22:30.841 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
-Dec 28 21:22:38.606 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
-Dec 28 21:22:38.608 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
-Dec 28 21:22:38.609 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 21:22:38.610 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
-Dec 28 21:22:38.611 HYPERVISOR: exec_cmd: vm start SWL3C1 
-Dec 28 21:25:05.980 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
-Dec 28 21:25:05.982 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
-Dec 28 21:25:05.982 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 21:25:10.770 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 21:25:10.770 HYPERVISOR: exec_cmd: vm stop SWL3C1 
-Dec 28 21:25:10.939 VM: VM SWL3C1 shutdown.
-Dec 28 21:25:10.939 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
-Dec 28 21:25:14.655 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
-Dec 28 21:25:14.655 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
-Dec 28 21:25:14.656 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
-Dec 28 21:25:14.657 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
-Dec 28 21:25:14.661 HYPERVISOR: exec_cmd: vm start SWL3C1 
+Dec 29 23:14:22.651 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 29 23:14:22.651 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60733.
+Dec 29 23:14:22.661 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 29 23:14:22.661 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips 
+Dec 29 23:14:22.661 GENERAL: working_dir=/home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips
+Dec 29 23:14:22.661 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/6f7274f2-6755-4bea-8655-341c161996ab 
+Dec 29 23:14:22.661 GENERAL: working_dir=/home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/6f7274f2-6755-4bea-8655-341c161996ab
+Dec 29 23:14:22.661 HYPERVISOR: exec_cmd: vm create SWL3C1 4 c3725 
+Dec 29 23:14:22.662 VM: VM SWL3C1 created.
+Dec 29 23:14:22.662 HYPERVISOR: exec_cmd: vm set_con_tcp_port SWL3C1 5007 
+Dec 29 23:14:22.662 HYPERVISOR: exec_cmd: c3725 get_mac_addr SWL3C1 
+Dec 29 23:14:22.662 HYPERVISOR: exec_cmd: vm set_disk0 SWL3C1 1 
+Dec 29 23:14:22.663 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 29 23:14:22.663 HYPERVISOR: exec_cmd: vm set_idle_pc SWL3C1 0x60a6a1e0 
+Dec 29 23:14:22.663 HYPERVISOR: exec_cmd: vm set_ios SWL3C1 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 29 23:14:22.663 HYPERVISOR: exec_cmd: c3725 set_mac_addr SWL3C1 c204.1d41.0000 
+Dec 29 23:14:22.664 HYPERVISOR: exec_cmd: vm set_nvram SWL3C1 256 
+Dec 29 23:14:22.664 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 29 23:14:22.664 HYPERVISOR: exec_cmd: vm slot_add_binding SWL3C1 1 0 NM-16ESW 
+Dec 29 23:14:23.749 HYPERVISOR: exec_cmd: nio create_udp udp-85216d82-a410-4f5d-a7ce-7b34ee7ef8de 10016 127.0.0.1 10017 
+Dec 29 23:14:23.958 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 0 0 udp-85216d82-a410-4f5d-a7ce-7b34ee7ef8de 
+Dec 29 23:14:23.958 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 29 23:14:24.020 HYPERVISOR: exec_cmd: nio create_udp udp-a2741ce8-2fda-4eda-a3d8-b5e815acaefe 10020 127.0.0.1 10021 
+Dec 29 23:14:24.021 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 0 1 udp-a2741ce8-2fda-4eda-a3d8-b5e815acaefe 
+Dec 29 23:14:24.021 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 29 23:14:24.589 HYPERVISOR: exec_cmd: nio create_udp udp-1da42659-3a1e-47b3-9011-dc16db7d736f 10038 127.0.0.1 10039 
+Dec 29 23:14:24.590 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 1 0 udp-1da42659-3a1e-47b3-9011-dc16db7d736f 
+Dec 29 23:14:24.590 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 29 23:14:24.626 HYPERVISOR: exec_cmd: nio create_udp udp-7b6e6db4-3275-4bef-99ef-bd15b22161e1 10044 127.0.0.1 10045 
+Dec 29 23:14:24.627 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 1 1 udp-7b6e6db4-3275-4bef-99ef-bd15b22161e1 
+Dec 29 23:14:24.627 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 29 23:14:25.137 HYPERVISOR: exec_cmd: nio create_udp udp-49e2d5c9-6fe1-4eaa-9284-60ca17b95ae2 10072 127.0.0.1 10073 
+Dec 29 23:14:25.138 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 1 2 udp-49e2d5c9-6fe1-4eaa-9284-60ca17b95ae2 
+Dec 29 23:14:25.138 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 29 23:14:25.193 HYPERVISOR: exec_cmd: nio create_udp udp-9a926618-dce8-4503-912f-c5d030e914ee 10076 127.0.0.1 10077 
+Dec 29 23:14:25.194 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 1 3 udp-9a926618-dce8-4503-912f-c5d030e914ee 
+Dec 29 23:14:25.194 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 29 23:14:38.318 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
+Dec 29 23:14:38.319 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Dec 29 23:14:38.320 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 29 23:14:38.322 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
+Dec 29 23:14:38.323 HYPERVISOR: exec_cmd: vm start SWL3C1 
+Dec 30 01:01:09.088 HYPERVISOR: exec_cmd: vm set_ios SWL3C1 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 30 01:01:10.316 HYPERVISOR: exec_cmd: vm set_ios SWL3C1 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 30 01:01:11.130 HYPERVISOR: exec_cmd: vm set_ios SWL3C1 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 30 01:30:54.049 HYPERVISOR: exec_cmd: nio bind_filter udp-7b6e6db4-3275-4bef-99ef-bd15b22161e1 2 capture 
+Dec 30 01:30:54.050 HYPERVISOR: exec_cmd: nio setup_filter udp-7b6e6db4-3275-4bef-99ef-bd15b22161e1 2 en10mb /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/captures/SWL3C1_FastEthernet11_to_SWL3F2_FastEthernet01.pcap 
+Dec 30 01:44:57.886 HYPERVISOR: exec_cmd: nio unbind_filter udp-7b6e6db4-3275-4bef-99ef-bd15b22161e1 2 
+Dec 30 01:45:02.375 HYPERVISOR: exec_cmd: nio bind_filter udp-7b6e6db4-3275-4bef-99ef-bd15b22161e1 2 capture 
+Dec 30 01:45:02.376 HYPERVISOR: exec_cmd: nio setup_filter udp-7b6e6db4-3275-4bef-99ef-bd15b22161e1 2 en10mb /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/captures/SWL3C1_FastEthernet11_to_SWL3F2_FastEthernet01.pcap 
+Dec 30 01:47:30.791 HYPERVISOR: exec_cmd: nio unbind_filter udp-7b6e6db4-3275-4bef-99ef-bd15b22161e1 2 
+Dec 30 01:47:34.099 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 01:47:34.100 HYPERVISOR: exec_cmd: vm slot_disable_nio SWL3C1 1 1 
+Dec 30 01:47:34.115 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding SWL3C1 1 1 
+Dec 30 01:47:34.120 HYPERVISOR: exec_cmd: nio delete udp-7b6e6db4-3275-4bef-99ef-bd15b22161e1 
+Dec 30 01:47:54.998 HYPERVISOR: exec_cmd: nio create_udp udp-9735b45f-26c4-4e22-a91b-bd33060bc8cc 10046 127.0.0.1 10047 
+Dec 30 01:47:55.000 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 1 1 udp-9735b45f-26c4-4e22-a91b-bd33060bc8cc 
+Dec 30 01:47:55.000 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 01:47:55.001 HYPERVISOR: exec_cmd: vm slot_enable_nio SWL3C1 1 1 
+Dec 30 01:48:01.318 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 01:48:01.318 HYPERVISOR: exec_cmd: vm slot_disable_nio SWL3C1 1 0 
+Dec 30 01:48:01.336 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding SWL3C1 1 0 
+Dec 30 01:48:01.337 HYPERVISOR: exec_cmd: nio delete udp-1da42659-3a1e-47b3-9011-dc16db7d736f 
+Dec 30 01:48:12.810 HYPERVISOR: exec_cmd: nio create_udp udp-89ff4fab-d8ea-49c0-8b04-ac46b446ad5f 10040 127.0.0.1 10041 
+Dec 30 01:48:12.812 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 1 0 udp-89ff4fab-d8ea-49c0-8b04-ac46b446ad5f 
+Dec 30 01:48:12.812 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 01:48:12.812 HYPERVISOR: exec_cmd: vm slot_enable_nio SWL3C1 1 0 
+Dec 30 01:48:17.659 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 01:48:17.659 HYPERVISOR: exec_cmd: vm slot_disable_nio SWL3C1 0 0 
+Dec 30 01:48:17.664 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding SWL3C1 0 0 
+Dec 30 01:48:17.665 HYPERVISOR: exec_cmd: nio delete udp-85216d82-a410-4f5d-a7ce-7b34ee7ef8de 
+Dec 30 01:48:26.918 HYPERVISOR: exec_cmd: nio create_udp udp-f8f71dd6-8091-4f81-97dd-be699ae1463b 10014 127.0.0.1 10015 
+Dec 30 01:48:26.920 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3C1 1 4 udp-f8f71dd6-8091-4f81-97dd-be699ae1463b 
+Dec 30 01:48:26.920 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 01:48:26.920 HYPERVISOR: exec_cmd: vm slot_enable_nio SWL3C1 1 4 
+Dec 30 01:48:33.636 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 01:48:33.637 HYPERVISOR: exec_cmd: vm stop SWL3C1 
+Dec 30 01:48:33.879 VM: VM SWL3C1 shutdown.
+Dec 30 01:48:33.879 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 30 01:48:34.576 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
+Dec 30 01:48:34.578 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Dec 30 01:48:34.579 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 01:48:34.579 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
+Dec 30 01:48:34.579 HYPERVISOR: exec_cmd: vm start SWL3C1 
+Dec 30 01:49:05.814 HYPERVISOR: exec_cmd: vm set_ios SWL3C1 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 30 01:49:12.445 HYPERVISOR: exec_cmd: vm set_ios SWL3C1 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 30 01:49:20.747 HYPERVISOR: exec_cmd: vm set_ios SWL3C1 /home/tomasfilipe/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 30 01:53:43.166 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 01:53:43.166 HYPERVISOR: exec_cmd: vm stop SWL3C1 
+Dec 30 01:53:43.332 VM: VM SWL3C1 shutdown.
+Dec 30 01:53:43.333 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 30 01:53:43.929 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
+Dec 30 01:53:43.930 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Dec 30 01:53:43.930 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 01:53:43.931 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
+Dec 30 01:53:43.931 HYPERVISOR: exec_cmd: vm start SWL3C1 
+Dec 30 02:02:06.475 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 02:02:06.476 HYPERVISOR: exec_cmd: vm stop SWL3C1 
+Dec 30 02:02:06.645 VM: VM SWL3C1 shutdown.
+Dec 30 02:02:06.645 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 30 02:02:07.434 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
+Dec 30 02:02:07.435 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Dec 30 02:02:07.435 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 02:02:07.436 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
+Dec 30 02:02:07.436 HYPERVISOR: exec_cmd: vm start SWL3C1 
+Dec 30 02:05:38.188 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 30 02:05:38.195 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 30 02:06:22.522 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 02:06:22.524 HYPERVISOR: exec_cmd: vm stop SWL3C1 
+Dec 30 02:06:22.706 VM: VM SWL3C1 shutdown.
+Dec 30 02:06:22.707 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 30 02:06:23.587 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
+Dec 30 02:06:23.588 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Dec 30 02:06:23.588 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 02:06:23.588 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
+Dec 30 02:06:23.588 HYPERVISOR: exec_cmd: vm start SWL3C1 
+Dec 30 02:11:07.697 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 02:11:07.698 HYPERVISOR: exec_cmd: vm stop SWL3C1 
+Dec 30 02:11:07.877 VM: VM SWL3C1 shutdown.
+Dec 30 02:11:07.877 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 30 02:11:08.977 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
+Dec 30 02:11:08.980 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Dec 30 02:11:08.982 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 02:11:08.988 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
+Dec 30 02:11:08.990 HYPERVISOR: exec_cmd: vm start SWL3C1 
+Dec 30 02:14:09.226 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 30 02:14:09.230 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 30 02:15:09.232 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 30 02:15:09.235 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 30 02:35:39.299 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 02:35:39.299 HYPERVISOR: exec_cmd: vm stop SWL3C1 
+Dec 30 02:35:39.471 VM: VM SWL3C1 shutdown.
+Dec 30 02:35:39.472 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 30 02:35:40.464 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
+Dec 30 02:35:40.468 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Dec 30 02:35:40.470 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 02:35:40.472 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
+Dec 30 02:35:40.473 HYPERVISOR: exec_cmd: vm start SWL3C1 
+Dec 30 02:36:47.235 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 02:36:47.236 HYPERVISOR: exec_cmd: vm stop SWL3C1 
+Dec 30 02:36:47.406 VM: VM SWL3C1 shutdown.
+Dec 30 02:36:47.406 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 30 02:36:48.979 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
+Dec 30 02:36:48.983 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Dec 30 02:36:48.985 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 02:36:48.988 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
+Dec 30 02:36:48.989 HYPERVISOR: exec_cmd: vm start SWL3C1 
+Dec 30 02:37:33.773 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 02:37:33.773 HYPERVISOR: exec_cmd: vm stop SWL3C1 
+Dec 30 02:37:33.960 VM: VM SWL3C1 shutdown.
+Dec 30 02:37:33.961 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 30 02:37:44.775 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 02:37:44.777 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 30 02:37:47.959 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 02:37:47.960 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 30 02:37:48.730 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
+Dec 30 02:37:48.730 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Dec 30 02:37:48.731 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 02:37:48.731 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
+Dec 30 02:37:48.731 HYPERVISOR: exec_cmd: vm start SWL3C1 
+Dec 30 02:42:06.305 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 02:42:06.305 HYPERVISOR: exec_cmd: vm stop SWL3C1 
+Dec 30 02:42:06.484 VM: VM SWL3C1 shutdown.
+Dec 30 02:42:06.485 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
+Dec 30 02:42:07.501 HYPERVISOR: exec_cmd: vm set_ghost_status SWL3C1 2 
+Dec 30 02:42:07.503 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/tomasfilipe/Desktop/Universidade/3Ano/FR/FR_Project/MiniProjeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Dec 30 02:42:07.504 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 02:42:07.504 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
+Dec 30 02:42:07.505 HYPERVISOR: exec_cmd: vm start SWL3C1 
+Dec 30 02:43:54.290 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
+Dec 30 02:43:54.291 HYPERVISOR: exec_cmd: vm stop SWL3C1 
+Dec 30 02:43:54.455 VM: VM SWL3C1 shutdown.
+Dec 30 02:43:54.456 HYPERVISOR: exec_cmd: vm extract_config SWL3C1 
