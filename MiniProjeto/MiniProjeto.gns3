@@ -319,7 +319,7 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e0",
-                            "x": 66,
+                            "x": 76,
                             "y": -20
                         },
                         "node_id": "156f3a19-62d2-464b-8206-f318b6f566e6",
@@ -1768,8 +1768,8 @@
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "template_id": "1966b864-93e7-32d5-965f-001384eec461",
                 "width": 72,
-                "x": 41,
-                "y": 296,
+                "x": 46,
+                "y": 292,
                 "z": 1
             },
             {
