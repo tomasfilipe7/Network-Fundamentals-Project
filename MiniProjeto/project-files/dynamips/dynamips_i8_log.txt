@@ -40,3 +40,4 @@ Dec 30 19:31:35.014 HYPERVISOR: exec_cmd: vm set_ghost_file SWL3C1 /home/marciap
 Dec 30 19:31:35.015 HYPERVISOR: exec_cmd: vm get_status SWL3C1 
 Dec 30 19:31:35.018 HYPERVISOR: exec_cmd: vm set_config SWL3C1 configs/i4_startup-config.cfg 
 Dec 30 19:31:35.019 HYPERVISOR: exec_cmd: vm start SWL3C1 
+Dec 31 00:52:46.343 HYPERVISOR: exec_cmd: vm set_ios SWL3C1 /home/marciapires10/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 

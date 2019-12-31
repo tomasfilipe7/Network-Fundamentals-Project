@@ -307,8 +307,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f1/3",
-                            "x": -25,
-                            "y": 61
+                            "x": -42,
+                            "y": 68
                         },
                         "node_id": "6f7274f2-6755-4bea-8655-341c161996ab",
                         "port_number": 3
@@ -784,7 +784,7 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f1/0",
-                            "x": -14,
+                            "x": -72,
                             "y": 23
                         },
                         "node_id": "6f7274f2-6755-4bea-8655-341c161996ab",
@@ -1360,8 +1360,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "SWL3C1",
-                    "x": -8,
-                    "y": -9
+                    "x": -9,
+                    "y": 44
                 },
                 "locked": false,
                 "name": "SWL3C1",
