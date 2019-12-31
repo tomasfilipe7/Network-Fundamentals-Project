@@ -691,8 +691,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e0",
-                            "x": 5,
-                            "y": 63
+                            "x": -21,
+                            "y": -7
                         },
                         "node_id": "2ec05430-55d3-43d9-aacf-e56a95ad4254",
                         "port_number": 0
@@ -1486,8 +1486,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "ISP",
-                    "x": 20,
-                    "y": 46
+                    "x": 40,
+                    "y": 38
                 },
                 "locked": false,
                 "name": "ISP",
@@ -1539,8 +1539,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "8e11dbd9-74ec-4d63-a25a-bc3d1c296f69",
                 "width": 66,
-                "x": 1226,
-                "y": -176,
+                "x": 1224,
+                "y": -178,
                 "z": 1
             },
             {
@@ -2103,8 +2103,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "Internet",
-                    "x": -1,
-                    "y": -25
+                    "x": 1,
+                    "y": 53
                 },
                 "locked": false,
                 "name": "Internet",
