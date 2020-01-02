@@ -865,8 +865,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f0/1",
-                            "x": 33,
-                            "y": -17
+                            "x": 49,
+                            "y": -27
                         },
                         "node_id": "271fc1fc-e42e-4ac6-8e8f-9f5e743e6e52",
                         "port_number": 1
