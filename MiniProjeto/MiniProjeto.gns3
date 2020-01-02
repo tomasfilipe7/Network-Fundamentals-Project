@@ -1452,7 +1452,7 @@
                     "dynamips_id": 4,
                     "exec_area": 64,
                     "idlemax": 500,
-                    "idlepc": "0x60a6a1e0",
+                    "idlepc": "0x0",
                     "idlesleep": 30,
                     "image": "c3725-advipservicesk9-mz.124-21.image",
                     "image_md5sum": "c336fa915d7ecd3b821c5e562c4326ab",
@@ -2190,8 +2190,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": 1061,
-                "y": -35,
+                "x": 1062,
+                "y": -31,
                 "z": 1
             },
             {
@@ -2308,5 +2308,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.3",
-    "zoom": 63
+    "zoom": 56
 }
