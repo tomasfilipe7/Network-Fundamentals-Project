@@ -1647,7 +1647,7 @@
                     "dynamips_id": 7,
                     "exec_area": 64,
                     "idlemax": 500,
-                    "idlepc": "0x60608040",
+                    "idlepc": "0x0",
                     "idlesleep": 30,
                     "image": "c7200-adventerprisek9-mz.151-4.M2.image",
                     "image_md5sum": "d54b063e3d0b368a702ffb49f497825e",
@@ -2308,5 +2308,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.3",
-    "zoom": 50
+    "zoom": 49
 }
