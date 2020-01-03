@@ -1683,7 +1683,7 @@
                 "template_id": "8e11dbd9-74ec-4d63-a25a-bc3d1c296f69",
                 "width": 66,
                 "x": 229,
-                "y": -687,
+                "y": -659,
                 "z": 1
             },
             {
@@ -2299,8 +2299,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": 452,
-                "y": -825,
+                "x": 502,
+                "y": -827,
                 "z": 1
             }
         ]
