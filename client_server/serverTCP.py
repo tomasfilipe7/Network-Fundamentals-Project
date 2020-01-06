@@ -22,7 +22,7 @@ def handle_client_connection(client_socket,address):
                 client_socket.close()
             else:
                 msg=request.decode()
-                print('Received {}'.format(msg))
+                print(format(msg))
                 msg=("ECHO: "+msg).encode()
                 client_socket.send(msg)
     except (socket.timeout, socket.error):

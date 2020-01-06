@@ -23,10 +23,6 @@ while True:
     usage = psutil.cpu_percent(interval=2,percpu=False)
     v_mem = psutil.virtual_memory()[2]
 
-    print(usage)
-    print(v_mem)
-    print(psutil.cpu_count())
-
     message_text = "\n CPU USAGE: " + str(usage) + "%" + "\n Memory usage: " + str(v_mem) + "%"; 
     
     try: 
